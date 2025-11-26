@@ -14,6 +14,7 @@ const server = http.createServer(app);
 // CORS configuration for production
 const allowedOrigins = [
   'http://localhost:3000',
+  'https://afriartmarketplace.vercel.app/',  // ⬅️ ADD YOUR VERCEL URL
   'https://afriart-marketplace.vercel.app',
   process.env.CLIENT_URL
 ].filter(Boolean);
